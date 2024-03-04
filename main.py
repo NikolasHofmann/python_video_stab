@@ -4,7 +4,9 @@ from os.path import isfile, join
 
 # apply to all files in directory
 onlyfiles = [f for f in listdir("D:/GoPro-Exports") if isfile(join("D:/GoPro-Exports", f))]
+print("\n\n")
 print(onlyfiles)
+print("\n\n")
 
 stabilizer = VidStab()
 for file in onlyfiles:
